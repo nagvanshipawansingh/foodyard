@@ -1,0 +1,147 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(61, 59, 59);
+    padding: 0 40px;
+    min-width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+}
+.header_left {
+    margin: 10px 20px;
+    display: flex;
+    
+}
+
+.header_left > a {
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    text-decoration: inherit;
+    margin-left: 20px;
+
+}
+
+.header_cart {
+    color: white;
+    font-size: 40px !important;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header_showCart {
+
+    z-index: 100;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:65px;
+    right: 5px;
+    box-shadow: 5px 10px 15px rgb(222, 216, 216);
+    display: flex;
+    flex-direction: column;
+    
+}
+.header_cartDetailsTitle {
+    display: flex;
+   
+}
+
+.header_cartDetailsTitle > h3 {
+      font-size: medium ;
+      font-weight: 600; 
+      margin: 10px 25px; 
+     
+}
+.header_cartDetails {
+    display: flex;
+    
+}
+
+.cartDetails_img > img {
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.cartDetails_para {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+   
+}
+
+.cartDetails_para > p {
+    font-size: small;
+    margin: 10px;
+}
+
+.cartDetails_removeIcon {
+    margin-left: 10px;
+}
+
+.cartDetails_removeIcon > SVG {
+
+    color: gray;
+}
+
+.cartDetails_removeIcon > SVG:hover {
+    color: red;
+}
+
+.cart_TotalPrice {
+    font-size: medium;
+    margin:10px 40px;
+    border-top: 1px solid black;
+    width: 70%;
+   
+    
+}
+
+.rupeesSymbol {
+    font-size: small;
+}
+
+
+
+
+.header_showCartClr {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+}
+
+.header_showCartClr > SVG:hover {
+   color: red;
+}
+
+
+
+.header_showCartItems {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+
+}
+
+.header_showCartItems > p {
+    font-size: large;
+}
+
+.header_showCartItems > img {
+    height: 10vh;
+}
+
+
+
+

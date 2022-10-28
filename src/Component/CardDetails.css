@@ -1,0 +1,106 @@
+.cardDetails_main {
+     display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+}
+
+.cardDetails_main > h1 {
+    margin: 30px 0;
+}
+
+.cardDetails {
+    width: 60%;
+    min-width: 420px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 241, 241);
+   
+}
+
+.cardDetails_items {
+    display: flex;
+    width: 50%;
+}
+
+.cardDetails_img {
+    width: 40%;
+   
+}
+
+.cardDetails_img > img {
+    width: 100%;
+}
+
+.cardDetails_left {
+   min-width: 100px;
+   margin-left: 30px;
+   
+}
+
+.rest_details {
+    margin-top: 5px ;
+}
+
+.items_detail {
+    margin-top: 40px;
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+    width: fit-content;
+    background-color: rgb(206, 202, 196);
+}
+
+.counte {
+    font-size: x-large;
+    
+}
+
+.button > button {
+    font-size: medium !important;
+    font-weight: 900;
+    padding: 0 !important;
+    color: black;  
+
+}
+
+.button > button:hover {
+    cursor: pointer;
+}
+
+.cardDetails_right {
+   margin-left: 30px;
+
+}
+
+.cardDetails_right > p {
+    margin-top: 40px;
+}
+
+.remove {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.removeIcon {
+    color: red;
+    width: 30px !important;
+    height: 20px !important;
+}
+
+.rating {
+    background-color: green;
+}
+
+.remove > SVG:hover {
+    cursor: pointer;
+}
+
+
